@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="raven.css">
+​
+    <style>
+        .header h4{
+            color: grey;
+        }
+        .header h2{
+            color: black;
+        }
+        .h6{
+            color: grey;
+        }
+        .h4{
+            color: black;
+        }
+  input[type=text], select, textarea {
+  width: 80%; /* Full width */
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    border-color: white;
+  background-color: white;
+  color:black;
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h4>
+            let's contact
+        </h4>
+        <h2>
+            Allow us to help you build your next big thing.
+        </h2>
+        <hr align="left">
+    </div>
+    <div class="contact">
+        <table>
+            <tr>
+                <th style="text-align: left;">
+                    <!-- OLD FORM CODE
+                        <form action="">
+                            <label for="">Enter Your Name:- </label>
+                            <input type="text">
+                            <br><br>
+                            <label for="Services">Select Your Services:- </label>
+                            <select name="Services" id="Services" multiple>
+                            <option value="Mobile App Development">Mobile App Development</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Custom App Development">Custom App Development</option>
+                            <option value="Hire Developers">Hire Developers</option>
+                            <option value="Other Services">Other Services</option>
+                            </select><br><br>
+                            <label for="">E-Mail :- </label>
+                            <input type="email">
+                            <label for="">Enter Your Contact Number:- </label>
+                            <input type="text" name="" id=""><br><br>
+                            <label for="">Brief Description Of Project:-</label>
+                            <br>
+                            <input type="text" name="" id="">
+                            <br><br>
+                            <input type="submit" value="send message">
+                    </form> -->
+                    <form action="action_page.php">
+                        <label for="fname"></label>
+                        <input type="text" id="fname" name="firstname" placeholder="Full Name..">
+                        <label for="Services"></label>
+                        <select id="Services" name="Services">
+                            <option value="">Select Service</option>
+                            <option value="Mobile App Development">Mobile App Development</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Custom App Development">Custom App Development</option>
+                            <option value="Hire Developers">Hire Developers</option>
+                            <option value="Other Services">Other Services</option>
+                        </select>
+                        <label for="email"></label>
+                        <input type="text" id="email" name="email-value" placeholder="Your E-mail">
+                    <br>
+                        <label style="margin-left: 10%;margin-right:10%;" for="subject">Brief About Your Project</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <input style="margin-left: 40%; border:1px;border-color: black;" type="submit" value="Submit">
+                      </form>
+                </th>
+                <th>
+                    <img src="C:\Users\ranak\OneDrive\Pictures\contact-us.svg" style="width:700px; height: 400px;" alt="Image">
+                </th>
+            </tr>
+        </table
+    </div>
+    <div class="sales-inquiry">
+        <center>
+            <h1>
+                Sales-Inquiry
+            </h1>
+            <hr>
+        </center>
+        <table>
+            <center>
+                <tr>
+                    <center>
+                        <th style="width: 10%;margin:5%;">
+                            <img src="https://kodytechnolab.com/img/contact-us/skype-id-icon.svg"  style="width:50px; height:50px;" alt="Skype Logo">
+                            <h6 style="color: grey; font-family: Arial, Helvetica, sans-serif;">Skype ID</h6><hr class="line">
+                            <h4 style="color: black;">Marketing</h4>
+                </th>
+                <th style="width: 10%;margin:5% ;">
+                            <img src="https://kodytechnolab.com/img/contact-us/phone-number-icon.svg" style="width:50px; height:50px;" alt="Call Logo">
+                            <h6 style="color: grey; font-family: Arial, Helvetica, sans-serif;">Phone Number</h6><hr class="line">
+                            <h4 style="color: black;">+91XXXXXXXXXX</h4>
+                </th>
+                <th style="width: 10%;margin:5% ;">
+                            <img src="https://kodytechnolab.com/img/contact-us/Email-id-icon.svg" style="width:70px; height:50px;" alt="message Logo">
+                            <h6 style="color: grey; font-family: Arial, Helvetica, sans-serif;">Email Address</h6><hr class="line">
+                            <h4 style="color: black;">xyz@gmail.com</h4>
+                </th>
+                    </center>
+                </tr>
+            </center>
+        </table>
+    </div>
+    <br>
+    
+​
+    <center>
+        <h1>
+            Career-Inquiry
+        </h1><hr>
+    </center>
+    <table>
+        <tr>
+            <center>
+                <center>
+                    <th style="width: 10%;margin:5% ;">
+                            <img src="https://kodytechnolab.com/img/contact-us/phone-number-icon.svg" style="width:50px; height:50px;" alt="Call Logo">
+                            <h6 style="color: grey; font-family: Arial, Helvetica, sans-serif;">Phone Number</h6><hr class="line">
+                            <h4 style="color: black;">+91XXXXXXXXXX</h4>
+                </th>
+                </center>
+                
+                <center>
+                    <th style="width: 10%;margin:5% ;">
+                            <img src="https://kodytechnolab.com/img/contact-us/Email-id-icon.svg" style="width:70px; height:50px;" alt="message Logo">
+                            <h6 style="color: grey; font-family: Arial, Helvetica, sans-serif;">Email Address</h6><hr class="line">
+                            <h4 style="color: black;">xyz@gmail.com</h4>
+                </th>
+                </center>
+            </center>
+        </tr>
+    </table>
+</div>
+<br>
+​
+<div class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.820563570156!2d70.76505851495445!3d22.284785985331652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959cbfd413a6ae1%3A0xe39facf91b079390!2sRaven%20Technolabs!5e0!3m2!1sen!2sin!4v1653996243533!5m2!1sen!2sin" width="1500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+​
+<h1>
+    <center>
+      Our Presence
+      </center>
+  </h1>
+  <hr>
+  <br>
+  <p><center class="p">
+    KODY Technolab is present at various locations and from there our teams develop and apply their proficiencies worldwide.
+    </center></p>
+    
+</body>
+</html>

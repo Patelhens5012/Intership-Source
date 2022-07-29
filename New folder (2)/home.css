@@ -1,0 +1,78 @@
+h1{
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color: white;
+  background-color: black;
+  font-family: 'Abel', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+}
+.bu {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: relative;
+  top: 25px;
+}
+
+.bu span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bu span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bu:hover span {
+  padding-right: 25px;
+}
+
+.bu:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.but {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 40px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: black;
+  color: white;
+}
